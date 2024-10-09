@@ -4,7 +4,7 @@ This project demonstrates how to use JDBC to connect to and interact with a Clic
 
 ## Prerequisites
 
-- Java 11 or higher
+- Java 21 or higher
 - Maven
 - ClickHouse server running on localhost:8123
 
@@ -21,7 +21,7 @@ mvn clean package
 To run the application, use:
 
 ```
-java -jar target/clickhouse-jdbc-example-1.0-SNAPSHOT.jar
+java -jar target/clickhouse-jdbc-1.0-SNAPSHOT.jar
 ```
 
 ## Project Structure
